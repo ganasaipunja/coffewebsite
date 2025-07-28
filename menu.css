@@ -1,0 +1,103 @@
+body{
+    background-color: burlywood;
+}
+.head{
+    display: flex;
+
+    color:brown;
+     margin-left: 100px; 
+    width: 600px;
+    height:200px;
+    margin-top: 5px;
+
+}
+.seconddiv{
+    width: fit-content;
+    background-color: chocolate;
+    margin-left: 50%;
+}
+.rate{
+     margin-left: 90px; 
+    text-align: center; 
+}
+.money{
+     margin-left: 90px;  
+    text-align: center;
+}
+.menu{
+    background-color: burlywood;
+    width: fit-content;
+     transform: scale(0.8,0.9);  
+   
+}
+.cup{
+    display: flex;
+     padding: 20px; 
+  
+    width: fit-content;
+    height: fit-content;
+     margin-left: 80px; 
+}
+strong{
+    /* size-adjust: 1000px;  */
+}
+.cofe{
+    display: flex;
+    margin-left: 40px; 
+    text-align: center;
+}
+.rat{
+     margin-left: 200px; 
+}
+.mon{
+    margin-left: 130px; 
+}
+.tea{
+    margin-bottom: 100px;
+    
+}
+strong,b{
+    border: 1px solid burlywood;
+    border-radius: 5px 0;
+    background-color:darkorange;
+    font-size: 20px;
+    color: azure;
+    width: 50px;
+    letter-spacing: 2px;
+}
+h1{
+ margin-left: 60px; 
+font-family:cursive;
+font-size: 50px;
+color: brown;
+text-shadow: 2px 3px 4px white;
+}
+.te{
+     padding-bottom: 10px; 
+}
+.cofe{
+   
+    margin-left: 100px;
+    margin-bottom:-20px; 
+    width:600px;
+}
+img{
+    border-radius: 20px 0 20px 10px;
+    box-shadow:4px 6px 7px brown;
+    margin-top: 60px;
+}
+p{
+    margin:-1px;
+}
+.picture{
+     margin-left:100px;
+    margin-top: 25px; 
+}
+a{text-decoration: none;
+    margin-left: 40px;
+    font-size: 30px;
+    border: 1px solid maroon;
+    border-radius: 10px 0;
+    background-color: rgb(216, 35, 35);
+    color: white;
+}

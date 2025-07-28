@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(coffe.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        fieldset{
+            width: fit-content;
+            background-color: antiquewhite;
+            margin-left: 40%;
+            margin-top: 80px;
+            background-image: url(orderimage2.jpg);
+            background-size: cover;
+            
+        }
+        fieldset:hover{
+            background-color: aqua;
+        }
+        legend{
+            border: 1px solid;
+            border-radius: 10px 0;
+            text-align: center;
+            color: greenyellow;
+            background-color: cadetblue;
+        }
+        legend:hover{
+            color: white;
+            background-color: coral;
+            box-shadow: 0 0 10px gold;
+        }
+        label{
+            color: rgb(182, 18, 94);
+        }
+        input,select{
+            width: 200px;
+            margin-left: 80px;
+            border-radius: 10px  0;
+        }
+        input:hover{
+            background-color: lemonchiffon;
+            border-color: darkorchid;
+        }
+        button{
+            border-radius: 0 10px;
+            background-color: aqua;
+        }
+        button:hover{
+            background-color: maroon;
+            color: white;
+            cursor: pointer;
+            box-shadow: 0 0 10px yellow;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend> Order Details</legend>
+        <label for="name">your name</label><br>
+        <input type="text" id="name" name="name" required placeholder="enter your name"><br><br>
+        <label for="phone">Phone no</label><br>
+        <input type="number" id="phone" name="phone" placeholder="enter your phone no" required><br><br>
+        <label for="order">select your order</label><br>
+        <select name="" id="">
+           <option value="Cardamon tea">Cardamon tea</option>
+           <option value="Lemon tea">Lemon tea</option>
+           <option value="Masala tea">Masala tea</option>
+           <option value="Assam milk tea">Assam milk tea</option>
+           <option value="Greeena tea">Greeena tea</option>
+           <option value="Ginger tea">Ginger tea</option>
+           <option value="Special Lemon Grass tea">Special Lemon Grass tea</option>
+           <option value="Special Tulsi tea">Special Tulsi tea</option>
+           <option value="Black tea">Black tea</option>
+           <option value="Cappuccino">Cappuccino</option>
+           <option value="latte">latte</option>
+           <option value="Espresso">Espresso</option>
+           <option value="Cold Coffee">Cold Coffee</option>
+           <option value="Coffee">Coffee</option>
+        </select><br><br>
+        <label for="place">address</label><br>
+        <input type="text" id="place" name="place" required placeholder="enter you address"> <br><br>
+        <label for="pin">Pincode</label><br>
+        <input type="number" id="pin" name="pin" required placeholder="enter your Pincode"><br><br>
+        <label for="phone">phone number</label><br>
+        <input type="number" id="phone" name="phone" required placeholder="enter your phone number"><br><br><br>
+        <a href="complete.html"><center><button>submit</button></center></a>
+    </fieldset>
+</body>
+</html>
